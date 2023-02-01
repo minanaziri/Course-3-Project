@@ -1,14 +1,11 @@
 # Course-3-Project
 
-The data is found in the following zip file : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-
 I created the script "run_analysis.R" -- 
 
 It creates a single data set, using txt files. The script uses the columns that have measurements on the mean and SD. Labels and descriptive names are used to create a tidied data set with the average of all variables for the activies and subjects. 
 
 
-Download the dataset
+I downloaded the dataset
 
 
 Assign variables
@@ -41,7 +38,7 @@ TidyData (10299 rows, 88 columns) is created by subsetting Merged_Data, selectin
 Uses descriptive activity names to name the activities in the data set
 Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable
 
-Appropriately labels the data set with descriptive variable names
+label the data set with descriptive names
 code column in TidyData renamed into activities
 All Acc in column’s name replaced by Accelerometer
 All Gyro in column’s name replaced by Gyroscope
